@@ -38,3 +38,8 @@ fractal(size * 3/4,centx,centy);
 
 
 }
+
+
+public void circle(int x, int y, int r){
+ellipse(x,y,2*r,2*r);
+}
